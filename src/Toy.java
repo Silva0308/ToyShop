@@ -47,7 +47,7 @@ public class Toy {
         return dropRate;
     }
 
-    public void setDropRate(double dropRate) {
+        public void setDropRate(double dropRate) {
         this.dropRate = dropRate;
     }
 
@@ -57,7 +57,7 @@ public class Toy {
 
     @Override
     public String toString() {
-        return title +
+        return id + ' ' + title +", вес в % "+ dropRate +
                 ", отсталось на складе: " + quantity ;
     }
 }

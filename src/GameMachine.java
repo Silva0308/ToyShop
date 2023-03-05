@@ -1,5 +1,7 @@
 import java.util.Random;
-
+/**
+ * Это класс розыгрыша
+ */
 public class GameMachine {
     ToyStorage storage;
 
@@ -19,10 +21,10 @@ public class GameMachine {
             currentSum += toy.getDropRate();
             if (randomValue <= currentSum) {
                 if (toy.getQuantity() == 0) {
-                    System.out.println("No more " + toy.getTitle() + " left.");
+                    System.out.println("No more " + toy.getTitle() + " left."); //уходит в минус???
                     return null;
                 } else {
-                    toy.setQuantity(toy.getQuantity() - 1);
+                    toy.setQuantity(toy.getQuantity() - 1); //Врет
                     storage.removeToy(toy);
                     System.out.println(toy);
                    // writeToFile(toy);
