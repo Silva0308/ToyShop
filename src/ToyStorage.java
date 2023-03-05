@@ -1,14 +1,14 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-/** Это класса склада игрушек*/
+/** Это класс склада игрушек*/
 public class ToyStorage implements Iterable <Toy> {
     private List<Toy> toyList;
 
     public ToyStorage() {
         this.toyList = new ArrayList<>();
     }
-/** метод добавлнеия игрушки на склад*/
+/** метод добавления игрушки на склад*/
     public void addToy(Toy toy) {
         toyList.add(toy);
     }

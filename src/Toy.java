@@ -1,4 +1,6 @@
-/** Это класс игрушка*/
+/**
+ * Это класс игрушка
+ */
 public class Toy {
     private final int id;
     private String title;
@@ -14,14 +16,12 @@ public class Toy {
     /**
      * Это конструктор
      *
-     * @param id   идентификатор игрушки, считается автоматически
-     * @param title название
+     * @param title    название
      * @param quantity количество игрушек на складе
      * @param dropRate частота выпадения в розыгрыше
-     *
      */
-    public Toy(int id, String title, int quantity, double dropRate) {
-        this.id = ++count;;
+    public Toy(String title, int quantity, double dropRate) {
+        this.id = ++count;
         this.title = title;
         this.quantity = quantity;
         this.dropRate = dropRate;
@@ -53,5 +53,11 @@ public class Toy {
 
     public int getId() {
         return id;
+    }
+
+    @Override
+    public String toString() {
+        return title +
+                ", отсталось на складе: " + quantity ;
     }
 }

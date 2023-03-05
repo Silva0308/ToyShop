@@ -9,7 +9,10 @@ public class GameMachine {
 
     public Toy getPrizeToy() {
         Random random = new Random();
-        double totalDropRate = storage.stream().mapToDouble(Toy::getDropRate).sum();
+        double totalDropRate = 0;
+        for (Toy toy : storage){
+           totalDropRate += toy.getDropRate();
+        }
         double randomValue = random.nextDouble() * totalDropRate;
         double currentSum = 0;
         for (Toy toy : storage) {
@@ -21,11 +24,13 @@ public class GameMachine {
                 } else {
                     toy.setQuantity(toy.getQuantity() - 1);
                     storage.removeToy(toy);
+                    System.out.println(toy);
                    // writeToFile(toy);
                     return toy;
                 }
             }
         }
         return null;
+}
 }
 
