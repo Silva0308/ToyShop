@@ -24,7 +24,7 @@ public class GameMachine {
                     System.out.println("No more " + toy.getTitle() + " left."); //уходит в минус???
                     return null;
                 } else {
-                    toy.setQuantity(toy.getQuantity() - 1); //Врет
+                    toy.setQuantity(toy.getQuantity()); //Врет
                     storage.removeToy(toy);
                     System.out.println(toy);
                    // writeToFile(toy);

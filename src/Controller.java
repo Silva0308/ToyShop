@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Controller {
     public static void run() {
         ToyStorage myStorage = new ToyStorage();
-        Toy t1 = new Toy("Teddy", 3, 30);
-        Toy t2 = new Toy("Ball", 6, 50);
-        Toy t3 = new Toy("Lego", 1, 10);
-        Toy t4 = new Toy("Barbie", 5, 10);
+        Toy t1 = new Toy("Teddy", 3, 0);
+        Toy t2 = new Toy("Ball", 6, 100);
+        Toy t3 = new Toy("Lego", 1, 0);
+        Toy t4 = new Toy("Barbie", 5, 0);
         myStorage.addToy(t1);
         myStorage.addToy(t2);
         myStorage.addToy(t3);

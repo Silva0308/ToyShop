@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c5456f-b41d-4397-8ebe-c7f9ee9b9390" name="Changes" comment="черновой вариант работы в консоли">
-      <change afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prises.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Saver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Storage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserInterface.java" afterDir="false" />
+    <list default="true" id="d2c5456f-b41d-4397-8ebe-c7f9ee9b9390" name="Changes" comment="контроллер, меню, US">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Toy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToyStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToyStorage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678014374178</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="контроллер, меню, US">
+      <created>1678021651765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678021651765</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +91,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="основные классы" />
     <MESSAGE value="черновой вариант работы в консоли" />
-    <option name="LAST_COMMIT_MESSAGE" value="черновой вариант работы в консоли" />
+    <MESSAGE value="контроллер, меню, US" />
+    <option name="LAST_COMMIT_MESSAGE" value="контроллер, меню, US" />
   </component>
 </project>

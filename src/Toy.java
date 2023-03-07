@@ -2,7 +2,7 @@
  * Это класс игрушка
  */
 public class Toy {
-    private final int id;
+    int id ;
     private String title;
     private int quantity;
     private double dropRate;
@@ -57,7 +57,7 @@ public class Toy {
 
     @Override
     public String toString() {
-        return id + ' ' + title +", вес в % "+ dropRate +
-                ", отсталось на складе: " + quantity ;
+        return id + " " + title +", вес в % "+ dropRate +
+                ", осталось на складе: " + quantity ;
     }
 }
